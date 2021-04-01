@@ -1,0 +1,14 @@
+/*
+Theme Name: Overlay Child Lifestyle
+Adding support for languages written in a Right To Left (RTL)
+*/
+.overlay-header-sicons {
+	text-align: right;
+}
+.site-header-inner-right {
+	text-align: left;
+}
+
+.main-navigation li {
+	float: right;
+}

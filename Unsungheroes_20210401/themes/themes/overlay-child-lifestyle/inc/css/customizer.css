@@ -1,0 +1,13 @@
+/*
+ * Custom Customizer CSS
+ *
+ * Remove SSettings that don't work with this header layout
+ */
+.overlay-customizer-description span {
+    display: none;
+}
+/* -- Settings that are always hidden -- */
+li#customize-control-overlay-header-align,
+li#customize-control-overlay-add-header-bgimg {
+    display: none !important;
+}

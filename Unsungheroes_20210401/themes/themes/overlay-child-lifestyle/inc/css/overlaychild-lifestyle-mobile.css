@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+# Overlay Child Theme Mobile Styling
+--------------------------------------------------------------*/
+.site-header-inner {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+.site-header .site-bar-inner {
+    text-align: center;
+}
+.overlay-header-sicons {
+    text-align: center;
+}
+
+.site-header-inner-right {
+    padding: 15px 0 10px;
+    text-align: center;
+}

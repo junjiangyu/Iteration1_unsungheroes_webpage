@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Header Styling
+--------------------------------------------------------------*/
+.site-header-inner {
+    display: flex;
+    align-items: center;
+}
+.overlay-header-sicons,
+.site-branding,
+.site-header-inner-right {
+    flex: 1;
+}
+.overlay-header-sicons {
+    text-align: left;
+    font-size: 28px;
+}
+.overlay-header-sicons .social-icon {
+    margin: 0 10px 0 0;
+    color: inherit;
+}
+.overlay-search-always .header-search-block {
+    display: inline-block;
+}
+
+.site-header-inner-right {
+    text-align: right;
+}
+button.header-search {
+    margin: 0 0 0 10px;
+}
+.site-header-inner-right .site-header-cart {
+    display: inline-block;
+}
+.site-header-inner-right .site-header-cart a {
+    color: inherit;
+}
+
+.site-header .site-header-cart:hover .widget_shopping_cart, .site-header-cart.focus .widget_shopping_cart {
+    right: 0;
+    left: auto;
+    display: block;
+}
+
+.site-stick-header.stick-header.stuck .site-stick-inner > .main-navigation {
+    margin: 0 0 1px;
+}
+.site-stick-header.stick-header.stuck .overlay-header-sicons,
+.site-stick-header.stick-header.stuck .site-header-inner-right {
+    display: none;
+}
