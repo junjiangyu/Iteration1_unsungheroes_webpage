@@ -495,6 +495,12 @@ $elements = [
                 'is_pro' => true
             ],
             [
+                'key'   => 'woo-product-carousel',
+                'title' => __( 'Woo Product Carousel', 'essential-addons-for-elementor-lite'),
+                'demo_link' => 'https://essential-addons.com/elementor/woo-product-carousel/',
+                'doc_link' => 'https://essential-addons.com/elementor/docs/woo-product-carousel/'
+            ],
+            [
                 'key'   => 'woo-checkout',
                 'title' => __( 'Woo Checkout', 'essential-addons-for-elementor-lite'),
                 'demo_link' => 'https://essential-addons.com/elementor/woo-checkout/',
@@ -592,6 +598,9 @@ $elements = apply_filters( 'add_eael_elementor_addons', $elements );
             <input type="hidden" name="embedpress" value="on">
             <input type="hidden" name="woocommerce-review" value="on">
             <input type="hidden" name="career-page" value="on">
+            <input type="hidden" name="crowdfundly-single-campaign" value="on">
+            <input type="hidden" name="crowdfundly-organization" value="on">
+            <input type="hidden" name="crowdfundly-all-campaign" value="on">
 
             <div class="eael-save-btn-wrap">
                 <button type="submit" class="button eael-btn js-eael-settings-save"><?php esc_html_e('Save settings', 'essential-addons-for-elementor-lite'); ?></button>

@@ -825,6 +825,34 @@ $config = [
                 true,
             ],
         ],
+
+        'crowdfundly-organization' => [
+	        'class' => '\Essential_Addons_Elementor\Elements\Crowdfundly_Organization',
+	        'condition' => [
+		        'class_exists',
+		        'Crowdfundly',
+		        true,
+	        ],
+        ],
+
+        'crowdfundly-all-campaign' => [
+	        'class' => '\Essential_Addons_Elementor\Elements\Crowdfundly_All_Campaign',
+	        'condition' => [
+		        'class_exists',
+		        'Crowdfundly',
+		        true,
+	        ],
+        ],
+
+        'crowdfundly-single-campaign' => [
+	        'class' => '\Essential_Addons_Elementor\Elements\Crowdfundly_Single_Campaign',
+	        'condition' => [
+		        'class_exists',
+		        'Crowdfundly',
+		        true,
+	        ],
+        ],
+
         'woo-checkout' => [
             'class' => '\Essential_Addons_Elementor\Elements\Woo_Checkout',
             'dependency' => [
@@ -891,6 +919,25 @@ $config = [
 		        ],
 	        ],
         ],
+	    'woo-product-carousel' => [
+		    'class' => '\Essential_Addons_Elementor\Elements\Woo_Product_Carousel',
+		    'dependency' => [
+			    'css' => [
+				    [
+					    'file' => EAEL_PLUGIN_PATH . 'assets/front-end/css/view/woo-product-carousel.min.css',
+					    'type' => 'self',
+					    'context' => 'view',
+				    ],
+			    ],
+			    'js'  => [
+				    [
+					    'file' => EAEL_PLUGIN_PATH . 'assets/front-end/js/view/woo-product-carousel.min.js',
+					    'type' => 'self',
+					    'context' => 'view',
+				    ],
+			    ],
+		    ],
+	    ],
     ],
     'extensions' => [
         'promotion' => [

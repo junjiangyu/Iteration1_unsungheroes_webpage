@@ -28,43 +28,46 @@ if ( 'posts' != get_option( 'show_on_front' ) ){
                         </div>
                     </section>
             <?php endif; ?>
-
+	 <a id="add"></a>
 <!-- Quiz-section start -->
 
-<section id="about-us" class="page-section">
-                        <div class="wrapper">
-                                        <div class="section-content">
-			
-  									
-                
-                <article>
+									
+		
 
-                    <div class="featured-image">
-                        <a href="https://unsungheroes.tk/supermission/" class="post-thumbnail-link"></a>
-                    </div><!-- .featured-image -->
+<div class="elementor-element elementor-element-a502162 elementor-cta--skin-cover elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="a502162" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<a href="https://unsungheroes.tk/lets-find-your-animal-hero/" class="elementor-cta">
+				   <div class="elementor-cta" style="height: 600px; text-align:center;vertical-align:middle;">
+					<div class="elementor-cta__bg-wrapper" >
+				<div class="elementor-cta__bg elementor-bg" style=" background: linear-gradient( #b5b5b58c, rgb(105 104 104 / 60%) ),
+    url(https://unsungheroes.tk/wp-content/uploads/2021/04/qwe.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>                            
+							<div class="elementor-cta__content" style="margin-top: 100px;">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--grow" style="text-shadow: 2px 2px 1px #000000;font-size: 40px;">
+					Let’s take an animal quiz!				</h2>
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--grow">
+						<p style="text-shadow: 2px 2px 1px #000000;font-size: 20px;">Self-care is about meeting your basic needs so you can be physically and mentally healthy. </p>
+                            <p style="text-shadow: 2px 2px 1px #000000;font-size: 20px;">We designed a self-care quiz for you to know what makes you pleasant. </p>
+										<p style="text-shadow: 2px 2px 1px #000000;font-size: 20px;">After the quiz, you can find out some funny activities that we recommend you play.</p></div>
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--grow">
+					<span class="btn" style="background: #ff7096;color:white">
+						TAKE THE QUIZ				
+										</span>
+										
+					</div>
+					   </div></div>
+						</a>
+				</div>
+				</div>
+	
 
-                    <div class="entry-container">
-                        <header class="entry-header">
-                            <h2 class="entry-title"><a href="https://unsungheroes.tk/supermission/">Super Mission</a></h2>
-                        </header>
 
-                        <div class="entry-content">
-                           
-							<p>Hello, unsung hero! Do you want to know what kind of superpowers you have? Come and find out through the mission! </p>
-                        </div><!-- .entry-content -->
-
-                                                                            <div class="read-more">
-                                <a href="https://unsungheroes.tk/supermission/" class="btn btn-primary">Start the Mission</a>
-                            </div><!-- .read-more -->
-                                            </div><!-- .entry-container -->
-                </article>
-
-                                                </div>
-
-                            </div>
-                    </section>
-
-<!-- Quiz-section end -->
+   
+              <!-- Quiz-section end -->
 
 
 

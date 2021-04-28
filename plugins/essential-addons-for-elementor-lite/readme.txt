@@ -1,10 +1,10 @@
 === Essential Addons for Elementor ===
-Contributors: wpdevteam, Codetic, re_enter_rupok, Asif2BD, priyomukul, mahfuz01, nazsabuz, manzurahammed
-Tags: elementor, elements, addons, elementor addon, elementor widget, elementor form, woocommerce elementor, page builder, builder, visual editor, wordpress page builder
+Contributors: wpdevteam, Codetic, re_enter_rupok, Asif2BD, priyomukul, mahfuz01, manzurahammed
+Tags: elementor, elements, addons, elementor addons, elementor widget, elementor form, woocommerce elementor, page builder, builder, visual editor, wordpress page builder
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 4.5.5
+Stable tag: 4.6.2
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -87,6 +87,7 @@ We have designed 42 of the most useful widgets to enhance your Elementor Page Bu
 40. [Typeform](https://essential-addons.com/elementor/typeform/) - Embed and Design your Typeform forms within Elementor.
 41. [Login | Register Form](https://essential-addons.com/elementor/login-register-form/) - Create amazing and attractive login or registration forms in Elementor 
 42. [Woo Product Compare](https://essential-addons.com/elementor/woo-product-compare/) - Create stunning WooCommerce Product Compare table instantly
+43. [Woo Product Carousel](https://essential-addons.com/elementor/woo-product-carousel/) - Design amazing WooCommerce Product Carousel with ease
 
 
 
@@ -149,11 +150,6 @@ https://www.youtube.com/watch?v=K9BssSV-KC8
 **Kay Cinho loves it, made this 45-minutes long review**
 
 https://www.youtube.com/watch?v=wvmteLgbbe4
-
-**Our friend Dave Swift highlighted the features he loves the most**
-
-https://www.youtube.com/watch?v=PhFb-LfG7h8
-
 
 ### Looking for a companion theme?
 
@@ -226,6 +222,36 @@ Your existing elements/content will work with premium version. So you won't lose
 
 
 == Changelog ==
+
+= 4.6.2 - 13/04/2021 =
+
+- Fixed: EA Creative Button | Missing style controls
+- Few minor bug fix and improvements
+
+= 4.6.1 - 11/04/2021 =
+
+- Added: Cache Settings for EA Facebook Feed, Twitter Feed, Event Calendar and Adv. Data Table
+- Fixed: SVG color not changing in some of the widgets
+- Fixed: EA Login/Register Form | Security token did not match error
+- Fixed: EA Login/Register Form | Throwing ‘Page ID not found’ error while registering
+- Fixed: EA Filterable Gallery | Multiple galleries on a single page not working properly
+- Fixed: EA Facebook Feed | Two different facebook ID's showing same content
+- Fixed: EA Product Grid | ‘Stock Out’ badge not working
+- Fixed: EA Post Grid | Image size setting not functioning properly
+- Fixed: EA Pricing Table |  Elementor PRO pop up isn't working on the button
+- Fixed: EA Contact Form 7 | the styling of the error/validation messages are not working
+- Fixed: EA Flip Box | broken in Safari browser
+- Fixed: EA Post Grid | ‘Read More’ option can't be edited when query is set to ‘Products’
+- Fixed: EA Fancy Text | Not working inside Elementor PRO Popup
+- Fixed: EA Data Table | throwing undefined error in Mobile devices
+- Few minor bug fix and improvements
+
+
+= 4.6.0 - 01/04/2021 =
+
+- Added: EA Woo Product Carousel
+- Few minor bug fix and improvements
+
 
 = 4.5.5 - 23/03/2021 =
 

@@ -1,3 +1,4 @@
+
 <?php 
 /**
  * Template part for displaying Services Section
@@ -14,8 +15,8 @@
     endif;
     ?>
     <?php if( $about_us_content_type == 'about_us_page' ) : ?>
-        <div class="section-content">
-			
+       
+<div class="section-content">			
             <?php $args = array (
                 'post_type'     => 'page',
                 'post_per_page' => count( $featured_about_us_posts ),
@@ -56,8 +57,11 @@
               <?php wp_reset_postdata(); ?>
             <?php endif;?>
         </div>
+	
+</a>
 
     <?php else: ?>
+<a href="https://unsungheroes.tk/supermission/">
         <div class="section-content">
             <?php $args = array (
                 'post_type'     => 'post',

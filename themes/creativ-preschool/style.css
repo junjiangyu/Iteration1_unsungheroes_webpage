@@ -1,7 +1,3 @@
-
-
-
-
 /*
 Theme Name: Creativ Preschool
 Theme URI: http://creativthemes.com/downloads/creativ-preschool/
@@ -174,7 +170,15 @@ h6 {
 }
 
 h1,
-h2,
+h2 {
+    clear: both;
+    color: #033b62;
+    margin: 16px 0;
+    line-height: 1.3;
+    font-weight: 400;
+	 font-family: 'Custom-font-Milk'; 
+}
+
 h3,
 h4,
 h5,
@@ -1895,7 +1899,9 @@ section {
     letter-spacing: 1px;
 }
 .section-header .section-title {
-    font-family: 'Shadows Into Light', cursive;
+    /*font-family: 'Shadows Into Light', cursive;*/
+	font-family: 'Custom-font-Milk';
+	
 }
 .section-header {
     margin-bottom: 50px;
@@ -2554,7 +2560,7 @@ ul.social-icons {
 .featured-content-wrapper .entry-title {
     color: #033b62;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -3860,12 +3866,12 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article {
 
 	/* change news slide*/	
 #team .section-content, #our-courses .section-content {
-    height: 420px;
+    height: 500px;
 }
 
 /* change height slide*/
 .slick-slider .slick-list, .slick-slider .slick-track {
-    height: 500px;
+    height: 600px;
 }
 		
 /*post postition*/
@@ -3938,7 +3944,9 @@ article.slick-item.display-none.slick-slide.slick-current.slick-active .wrapper 
     #about-us .featured-image {
         width: 50%;
         float: left;
+		   height: 400px;
         margin-bottom: 0;
+		   margin-top:-50px;
     }
     #about-us .entry-container,
     #about-us article.no-post-thumbnail .entry-container {
@@ -4711,5 +4719,114 @@ article.slick-item.display-none.slick-slide.slick-current.slick-active .wrapper 
     margin-top: -100px;
 }
 	
+	
+	
 }
+
+/*Sport page selectbox */
+
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border:2px solid #000000;
+  background: white;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: white;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: black;
+  cursor: pointer;
+}
+
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #336699;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #ff7096;
+}
+
+/* homepage cta btn */
+.homepage_cta_btn{
+	 width: 122px;
+    height: 48px;
+    text-align: center;
+    padding-top: 7px;
+	 color: #033b62;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding: 10px 45px; */
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #ff7096;
+    border-radius: 50px;
+    z-index: 1;
+    font-family: 'Sniglet', cursive;
+}
+
+.homepage_cta_btn:hover{
+	color: #fff;
+	background-color: #ff7096;
+}
+
+/*Custom font*/
+@font-face {
+font-family: Custom-font;
+src: url(https://unsungheroes.tk/wp-content/themes/fonts/Asdonuts.ttf);
+font-weight: normal;
+}
+
+@font-face {
+font-family: Custom-font-Milk;
+src: url(https://unsungheroes.tk/wp-content/themes/fonts/MilkyNice-Clean.ttf);
+}
+
+@font-face {
+font-family: Custom-font-pumpkin;
+src: url(https://unsungheroes.tk/wp-content/themes/fonts/Pumkinpie.ttf);
+font-weight: normal;
+}
+
+
+/* change homepage do you know section*/
+h2.elementor-heading-title.elementor-size-default {
+    font-family: 'Custom-font-Milk';
+}
+
+
+
+
 

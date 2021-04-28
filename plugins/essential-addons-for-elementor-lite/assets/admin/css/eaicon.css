@@ -275,3 +275,19 @@
 .eaicon-product-compare:before {
 	content: "\e953";
 }
+
+.eaicon-product-carousel:before {
+	content: "\e954";
+}
+
+.eaicon-crowdfundly-campaign:before {
+	content: "\e955";
+}
+
+.eaicon-crowdfundly-organization:before {
+	content: "\e956";
+}
+
+.eaicon-crowdfundly-single-campaign:before {
+	content: "\e957";
+}

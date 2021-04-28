@@ -3,29 +3,68 @@ Contributors: publishpress, kevinB, stevejburge, andergmartins, olatechpro
 Tags: tag, tags, taxonomy, term, cpt, tagging, navigation, tag manager, tags manager, term manager, terms manager
 Requires at least: 3.3
 Tested up to: 5.7
-Stable tag: 3.0.2
+Stable tag: 3.0.3
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-TaxoPress is the advanced taxonomy manager. This plugin can automatically create and link your taxonomy terms.
+TaxoPress is the advanced taxonomy manager. TaxoPress is the perfect plugin to manage Tags, Categories and all your WordPress taxonomy terms.
 
 == Description ==
 
-TaxoPress is the advanced taxonomy manager. This plugin can automatically create and link your taxonomy terms.
+TaxoPress is the advanced taxonomy manager. TaxoPress is the perfect tool to manage Tags, Categories and all your WordPress taxonomy terms.
 
-** TaxoPress is the perfect tool to manage all your WordPress taxonomy terms**
+= Five Key Features in TaxoPress =
 
+1. **Tag Clouds**: Create dynamic tag clouds with many configuration options.
+2. **Manage terms**: Quickly add, rename, remove, delete and even merge terms.
+3. **Automatically create terms from posts**: TaxoPress can analyze your posts and automatically relevant create Tags and Categories.
+4. **Automatically suggest terms from posts**: TaxoPress can use the Dandelion API and OpenCalais API to analyze your WordPress content and suggest Tags that you can add to your post.
+5. **Link words to Tags**: If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add link to the archive page for that tag.
 
-Here are some of the key features in TaxoPress:
+= Feature #1. How to Add Tag Clouds =
 
-* Term suggestion from Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms with AJAX request
-* Term management. You can rename, delete, merge, search and add terms.
-* Edit mass tags for more than 50 posts at once.
-* Auto link tags in post content.
-* Automatically create tags for your content.
-* Tag pages (not only posts) and include them inside the tags results
-* Dynamic Tag Clouds with colors with widgets
+TaxoPress allows you to show a cloud of the Tags used on your site. The most popular tags are shown in a large font. The Tag Cloud can be show in one of three ways:
+
+* With a shortcode.
+* With the "Tag Cloud" widget.
+* With PHP code in your template files.
+
+[Click here to read about Tag Clouds](https://publishpress.com/knowledge-base/display-multiple-authors/).
+
+= Feature #2. How to Manage Terms =
+
+The “Manage Terms” screen in TaxoPress provides you with several useful tools to manage the terms on your site. These tools can be used with any taxonomy. Here
+
+* **Add terms**: Quickly add terms to your content.
+* **Rename terms**: Change the name of your terms in bulk.
+* **Merge terms**: Combine existing terms together. Very useful for fixing typos in your terms.
+* **Remove terms**: Remove terms from all posts, without deleting those terms.
+* **Delete terms**: Delete terms in bulk.
+* **Delete unused terms**: Delete any terms that are rarely used.
+
+[Click here to read about managing terms](https://taxopress.com/docs/introduction-to-manage-terms/).
+
+= Feature #3. How to Automatically Create Terms =
+
+This feature allows WordPress to examine your post content and title for specified terms and automatically add those terms as Tags. Here’s an example of how it works:
+
+* You add “WordPress” to the keywords list in TaxoPress.
+* If your post content or title contains the word “WordPress”, then TaxoPress will automatically add “WordPress” as a term for this post.
+
+[Click here to read about creating terms](https://publishpress.com/knowledge-base/display-multiple-authors/).
+
+= Feature #4. How to Automatically Suggest Terms =
+
+The Suggested Tags feature in TaxoPress will analyze your WordPress content and suggest Tags that you can add to your post. The default option is “Local Tags”. These are Tags that have already been created on your site. It is possible to use APIs to automatically suggest Tags for your content. The Dandelion API and OpenCalais API integrations can analyze your Posts and Pages and automatically make suggestions for new Tags.
+
+[Click here to read about suggesting terms](https://publishpress.com/knowledge-base/display-multiple-authors/).
+
+= Feature #5. How to Link Words to Tags =
+
+The Auto Links feature in TaxoPress will automatically add links to your content. If you have a term called “WordPress”, the Auto Links feature will find any instances of “WordPress” in your content and add link to the archive page for that tag. So any instances of “WordPress” will link to /tag/wordpress.
+
+[Click here to read about linking words](https://publishpress.com/knowledge-base/display-multiple-authors/).
 
 == Installation ==
 
@@ -59,6 +98,14 @@ TaxoPress can be installed in 3 easy steps:
 6. You also can suggest tags from lot's of service (Yahoo! Content Analysis, OpenCalais, Alchemy, Zemanta, Tag The Net, Tag4Site, dataTXT and local terms)
 
 == Changelog ==
+
+v3.0.3 - 2021-03-22
+* Improved the "Manage Terms" page
+* Added feature to untag all posts with specific tag to "Manage Terms" page
+* Removed "Autocompletion with old input"
+* Small adjustment to the AutoTerms screen
+* Small improvements to metaboxes
+* Added search to clicktags
 
 v3.0.2 - 2021-03-10
 * Restore Dandelion API
