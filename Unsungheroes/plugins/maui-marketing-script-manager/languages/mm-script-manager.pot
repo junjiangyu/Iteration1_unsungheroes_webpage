@@ -1,0 +1,99 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Maui Marketing Script Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-09 09:42+0700\n"
+"PO-Revision-Date: 2015-11-09 15:20+0100\n"
+"Last-Translator: Ben Lee <ben@mauimarketing.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: F:/congviec/plugins/du_an/mm-script-manager\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mm-script-manager-admin.php:29
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: mm-script-manager-admin.php:112
+msgid "Maui Marketing Script Manager"
+msgstr ""
+
+#: mm-script-manager-admin.php:125 mm-script-manager-admin.php:230
+#: mm-script-manager-admin.php:347
+msgid "Script Type"
+msgstr ""
+
+#: mm-script-manager-admin.php:127 mm-script-manager-admin.php:232
+#: mm-script-manager-admin.php:349
+msgid "CSS"
+msgstr ""
+
+#: mm-script-manager-admin.php:128 mm-script-manager-admin.php:233
+#: mm-script-manager-admin.php:350
+msgid "JS"
+msgstr ""
+
+#: mm-script-manager-admin.php:129 mm-script-manager-admin.php:234
+#: mm-script-manager-admin.php:351
+msgid "TAG"
+msgstr ""
+
+#: mm-script-manager-admin.php:133 mm-script-manager-admin.php:238
+#: mm-script-manager-admin.php:355
+msgid "Script Location"
+msgstr ""
+
+#: mm-script-manager-admin.php:135 mm-script-manager-admin.php:240
+#: mm-script-manager-admin.php:357
+msgid "Header Script"
+msgstr ""
+
+#: mm-script-manager-admin.php:136 mm-script-manager-admin.php:241
+#: mm-script-manager-admin.php:358
+msgid "Body Script"
+msgstr ""
+
+#: mm-script-manager-admin.php:137 mm-script-manager-admin.php:242
+#: mm-script-manager-admin.php:359
+msgid "Footer Script"
+msgstr ""
+
+#: mm-script-manager-admin.php:144 mm-script-manager-admin.php:249
+#: mm-script-manager-admin.php:366
+msgid "Autoload Option"
+msgstr ""
+
+#: mm-script-manager-admin.php:146 mm-script-manager-admin.php:251
+#: mm-script-manager-admin.php:368
+msgid "Load by default on custom post types"
+msgstr ""
+
+#: mm-script-manager-admin.php:147 mm-script-manager-admin.php:252
+#: mm-script-manager-admin.php:369
+msgid "Load On Specific Posts"
+msgstr ""
+
+#: mm-script-manager-admin.php:155 mm-script-manager-admin.php:260
+#: mm-script-manager-admin.php:377
+msgid "Include this script on selected post types:"
+msgstr ""
+
+#: mm-script-manager-admin.php:169 mm-script-manager-admin.php:273
+#: mm-script-manager-admin.php:391
+msgid "Exclude"
+msgstr ""
+
+#: mm-script-manager-admin.php:172 mm-script-manager-admin.php:276
+#: mm-script-manager-admin.php:394
+msgid "Include"
+msgstr ""
